@@ -1,8 +1,5 @@
-# Cheat Sheet de HTML, CSS e JavaScript!
-
 ### Bruno Eduardo Fortes
-
-
+# Cheat Sheet de HTML, CSS e JavaScript!
 # Tópicos
 
 - HTML
