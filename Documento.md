@@ -85,8 +85,15 @@ div > p { color: purple; }
 body {
     color: #333;
     font-size: 16px;
-    margin: 0;
-    padding: 0;
+    margin: 0;   /* Espaço externo */
+    padding: 0;  /* Espaço interno */
+}
+
+.caixa {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black; /* Borda */
+    border-radius: 8px;      /* Cantos arredondados */
 }
 ```
 
@@ -95,8 +102,9 @@ body {
 ``` css
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Alinha no eixo principal (horizontal por padrão) */
+    align-items: center;     /* Alinha no eixo transversal (vertical por padrão) */
+    gap: 10px;               /* Espaçamento entre os itens */
 }
 ```
 
@@ -105,7 +113,20 @@ body {
 ``` css
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; /* Duas colunas com tamanhos iguais */
+    gap: 20px;
+}
+```
+
+## Variáveis CSS
+
+``` css
+:root {
+    --cor-primaria: #0056b3;
+}
+
+.botao {
+    background-color: var(--cor-primaria);
 }
 ```
 
@@ -124,6 +145,21 @@ body {
 ``` javascript
 let nome = "João";
 const idade = 25;
+```
+## Estruturas de Dados
+
+``` javascript
+// Arrays (Listas)
+const frutas = ["Maçã", "Banana", "Laranja"];
+console.log(frutas[0]); // Maçã
+
+// Objetos
+const usuario = {
+    nome: "Bruno",
+    time: "Grêmio",
+    ativo: true
+};
+console.log(usuario.time); // Grêmio
 ```
 
 ## Funções
@@ -161,7 +197,10 @@ localStorage.setItem("nome", "Bruno");
 
 ## HTTP
 
-GET, POST, PUT, DELETE
+- GET: Buscar/Ler dados.
+- POST: Enviar dados.
+- PUT; Editar/Atualizar dados.
+- DELETE: Deletar dados.
 
 ------------------------------------------------------------------------
 
