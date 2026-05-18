@@ -61,9 +61,9 @@ Documento para referencias e curiosidades sobre os conceitos, sintaxes e boas pr
 
 ## Boas práticas HTML
 
--   Usar tags semânticas: header, main, section, article, footer\
--   Sempre usar alt em imagens\
--   Manter identação organizada\
+-   Usar tags semânticas: header, main, section, article, footer
+-   Sempre usar alt em imagens
+-   Manter identação organizada
 -   Evitar excesso de div
 
 ------------------------------------------------------------------------
